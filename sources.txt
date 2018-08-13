@@ -1,0 +1,5 @@
+D:\Git\XMedRetro\X39_XMR_Core\res:
+blooddrop: https://commons.wikimedia.org/wiki/File:Blood_drop_plain.svg
+broken-bone: Icon made by https://www.flaticon.com/authors/retinaicons
+antibiotic: Icon made by https://www.flaticon.com/authors/smashicons
+tourniquet: https://de.wikipedia.org/wiki/Tourniquet-Abbindesystem#/media/File:Tourniquet.jpeg

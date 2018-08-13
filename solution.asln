@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Solution>
+  <Project ArmAPath="x\x39\medicalretro\core" Name="X39_XMR_Core" FilePath="D:\Git\XMedRetro\X39_XMR_Core" ProjectType="Addon">
+    <ProjectFile ProjectRelativePath="config.cpp" />
+    <ProjectFile ProjectRelativePath="default.hpp" />
+    <ProjectFile ProjectRelativePath="defaultSqf.hpp" />
+    <ProjectFile ProjectRelativePath="EventCallbacks/46_OnKeyDown.sqf" />
+    <ProjectFile ProjectRelativePath="EventCallbacks/Object_FiredNear.sqf" />
+    <ProjectFile ProjectRelativePath="EventCallbacks/Object_HandleDamage.sqf" />
+    <ProjectFile ProjectRelativePath="footer.hpp" />
+    <ProjectFile ProjectRelativePath="functions.cpp" />
+    <ProjectFile ProjectRelativePath="header.hpp" />
+    <ProjectFile ProjectRelativePath="hearing.sqf" />
+    <ProjectFile ProjectRelativePath="initUnit.sqf" />
+    <ProjectFile ProjectRelativePath="PostInit.sqf" />
+    <ProjectFile ProjectRelativePath="PreInit.sqf" />
+    <ProjectFile ProjectRelativePath="res/antibiotic.png" />
+    <ProjectFile ProjectRelativePath="res/blackout_background.png" />
+    <ProjectFile ProjectRelativePath="res/blooddrop.png" />
+    <ProjectFile ProjectRelativePath="res/blooddrop_1.png" />
+    <ProjectFile ProjectRelativePath="res/blooddrop_2.png" />
+    <ProjectFile ProjectRelativePath="res/blooddrop_3.png" />
+    <ProjectFile ProjectRelativePath="res/blooddrop_4.png" />
+    <ProjectFile ProjectRelativePath="res/broken-bone.png" />
+    <ProjectFile ProjectRelativePath="res/health.png" />
+    <ProjectFile ProjectRelativePath="res/tourniquet.png" />
+    <ProjectFile ProjectRelativePath="ResetEffects.sqf" />
+    <ProjectFile ProjectRelativePath="TickRunner.sqf" />
+    <ProjectFile ProjectRelativePath="ui/BlackOutScreen_IDs.hpp" />
+    <ProjectFile ProjectRelativePath="ui/BlackOutScreen_onLoad.sqf" />
+    <ProjectFile ProjectRelativePath="ui/BlackOutScreen_onUnload.sqf" />
+    <ProjectFile ProjectRelativePath="ui/Overlay_IDs.hpp" />
+    <ProjectFile ProjectRelativePath="ui/Overlay_onLoad.sqf" />
+    <ProjectFile ProjectRelativePath="ui/Overlay_onUnload.sqf" />
+    <ProjectFile ProjectRelativePath="ui/X39_XMR_BlackOut.cpp" />
+    <ProjectFile ProjectRelativePath="ui/X39_XMR_Overlay.cpp" />
+  </Project>
+</Solution>
