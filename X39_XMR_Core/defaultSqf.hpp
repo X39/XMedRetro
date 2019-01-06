@@ -20,9 +20,12 @@
 #define PPEffectOffset 56
 #define === isEqualTo
 
-#define VALSTR_BLOODLOSS "X39_XMR_var_bleeding"
-#define VALSTR_BLOOD     "X39_XMR_var_blood"
-#define VALSTR_PAIN      "X39_XMR_var_pain"
+#define VALSTR_BLOODLOSS            "X39_XMR_var_bleeding"
+#define VALSTR_BLOOD                "X39_XMR_var_blood"
+#define VALSTR_PAIN                 "X39_XMR_var_pain"
+#define VALSTR_BOS_STATE            "X39_XMR_var_BOS_STATE"
+#define VALSTR_BOS_INFO             "X39_XMR_var_BOS_INFO"
+#define VALSTR_UI_BOS_DISPLAYTEXT   "XMS_BlackOutScreen_displaytext"
 
 #ifdef DEBUG
     //If in debug mode, enable tracing & printing call arguments

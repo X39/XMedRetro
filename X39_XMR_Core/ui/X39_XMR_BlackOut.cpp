@@ -31,7 +31,7 @@ class X39_XMR_BlackOutScreen
         };
         class btn_abort : RscButton
         {
-            idc = BOS_IDC_ABORTBUTTON
+            idc = BOS_IDC_ABORTBUTTON;
             text = "ABORT";
             x = SafeZoneX + (330  1920) * SafeZoneW;
             y = SafeZoneY + (1020  1080) * SafeZoneH;

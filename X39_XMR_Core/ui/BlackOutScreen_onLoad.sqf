@@ -14,6 +14,7 @@ uiNamespace setVariable ["XMR_BlackOutScreen_LOOP", _ctrl spawn {
     {
         sleep 0.001; //sleep one frame
         //ToDo
+        //VALSTR_UI_BOS_DISPLAYTEXT
         if((time - _last) > 10) then
         {
             private _currentFade = ctrlFade (_this displayCtrl BOS_IDC_PULSEBACK);

@@ -120,11 +120,11 @@ if X39_XMR_FLAG_HEARING then {
 if (_isBleeding && !_trnqt) then {
     if (_blood <= X39_XMR_SETTING_BLEEDING_KnockOutBloodLimit
         && X39_XMR_SETTING_BLEEDING_KnockOutBloodLimit != -1) then {
-            [_unit, -1, false] X39_XMR_fnc_BlackOut;
+            [_unit, -1, false] call X39_XMR_fnc_BlackOut;
     };
     if (_blood <= 0) then {
         _unit setDamage 1;
-    }
+    };
     if (_bloodlossPerTick > 0) then {
         [_unit, _blood - _bloodlossPerTick] call X39_XMR_fnc_blood;
     };

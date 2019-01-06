@@ -13,7 +13,7 @@ uiNamespace setVariable ["XMR_Overlay_LOOP", addMissionEventHandler ["Draw3D", {
     
     //Health View
     private _dmg = [player, true] call X39_XMR_getUnitDamage;
-    private _dmgclrval = if(_dmg > 0) { 2 / (X39_XMR_SETTING_GENERIC_DamageBeforeDead / _dmg) } else { 0 };
+    private _dmgclrval = if(_dmg > 0) then { 2 / (X39_XMR_SETTING_GENERIC_DamageBeforeDead / _dmg) } else { 0 };
     (_display displayCtrl OVRL_IDC_HEALTH) ctrlSetTextColor [ _bldclrval, 2 -_bldclrval, 0, X39_XMR_SETTING_OverlayTransparency ];
     
     //Blood View
@@ -54,7 +54,7 @@ uiNamespace setVariable ["XMR_Overlay_LOOP", addMissionEventHandler ["Draw3D", {
     if X39_XMR_FLAG_OVERLAY_LOWBLOOD then {
         (_display displayCtrl OVRL_IDC_LOWBLOOD) ctrlShow (_bld < X39_XMR_SETTING_OVERLAY_LOWBLOOD_WARNING_THRESHOLD);
     };
-}];
+}]];
 
 (_display displayCtrl OVRL_IDC_HEALTH)     ctrlShow X39_XMR_FLAG_OVERLAY_HEALTHVIEW;
 (_display displayCtrl OVRL_IDC_BLOOD)      ctrlShow X39_XMR_FLAG_OVERLAY_BLOODVIEW;

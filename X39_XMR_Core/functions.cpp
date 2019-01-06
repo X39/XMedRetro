@@ -17,6 +17,15 @@ class Generic
     class resetEffects              { file = "x\x39\medicalretro\core\ResetEffects.sqf"; };
     class hearing                   { file = "x\x39\medicalretro\core\hearing.sqf"; };
 };
+class BlackOutSystem
+{
+    class BOS_ChangeState           { file = "x\x39\medicalretro\core\BlackOutSystem\ChangeState.sqf"; };
+    class BOS_WakeUnit              { file = "x\x39\medicalretro\core\BlackOutSystem\WakeUnit.sqf"; };
+    class BOS_BlackOutUnit          { file = "x\x39\medicalretro\core\BlackOutSystem\BlackOutUnit.sqf"; };
+    class BOS_ChangeDisplayText     { file = "x\x39\medicalretro\core\BlackOutSystem\ChangeDisplayText.sqf"; };
+    class BOS_CheckConditions       { file = "x\x39\medicalretro\core\BlackOutSystem\CheckConditions.sqf"; };
+    class BOS_IsAwake               { file = "x\x39\medicalretro\core\BlackOutSystem\IsAwake.sqf"; };
+};
 class GettersAndSetters
 {
     class getPain                   { file = "x\x39\medicalretro\core\xetter\getPain.sqf"; };

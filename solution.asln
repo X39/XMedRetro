@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <Solution>
   <Project ArmAPath="x\x39\medicalretro\core" Name="X39_XMR_Core" FilePath="D:\Git\XMedRetro\X39_XMR_Core" ProjectType="Addon">
+    <ProjectFile ProjectRelativePath="blackOut.sqf" />
     <ProjectFile ProjectRelativePath="config.cpp" />
     <ProjectFile ProjectRelativePath="default.hpp" />
     <ProjectFile ProjectRelativePath="defaultSqf.hpp" />
@@ -34,5 +35,11 @@
     <ProjectFile ProjectRelativePath="ui/Overlay_onUnload.sqf" />
     <ProjectFile ProjectRelativePath="ui/X39_XMR_BlackOut.cpp" />
     <ProjectFile ProjectRelativePath="ui/X39_XMR_Overlay.cpp" />
+    <ProjectFile ProjectRelativePath="xetters/addBloodloss.sqf" />
+    <ProjectFile ProjectRelativePath="xetters/addPain.sqf" />
+    <ProjectFile ProjectRelativePath="xetters/getBloodloss.sqf" />
+    <ProjectFile ProjectRelativePath="xetters/getPain.sqf" />
+    <ProjectFile ProjectRelativePath="xetters/setBloodloss.sqf" />
+    <ProjectFile ProjectRelativePath="xetters/setPain.sqf" />
   </Project>
 </Solution>

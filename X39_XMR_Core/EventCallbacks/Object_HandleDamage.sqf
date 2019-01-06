@@ -46,12 +46,12 @@ if (_selectionName == "") then {
     if (_damage >= X39_XMR_SETTING_GENERIC_DamageBeforeKnockout) then {
         if (_damage >= X39_XMR_SETTING_GENERIC_DamageBeforePermaKnockout) then {
             if (_damage >= X39_XMR_SETTING_GENERIC_DamageBeforeDead) then {
-                [_unit, -1, true] X39_XMR_fnc_BlackOut;
+                [_unit, -1, true] call X39_XMR_fnc_BlackOut;
             } else {
-                [_unit, -1, false] X39_XMR_fnc_BlackOut;
+                [_unit, -1, false] call X39_XMR_fnc_BlackOut;
             };
         } else {
-            [_unit, X39_XMR_SETTING_GENERIC_DamageTimedKnockoutTimeout, false] X39_XMR_fnc_BlackOut;
+            [_unit, X39_XMR_SETTING_GENERIC_DamageTimedKnockoutTimeout, false] call X39_XMR_fnc_BlackOut;
         };
     };
 };
@@ -60,10 +60,10 @@ if (_selectionName == "head") then {
     private _headdmg = _unit getVariable ["X39_XMR_var_damage_head", 0] + _damage;
     
     _headdmg setVariable ["X39_XMR_var_damage_head",  [_lgdmg, 1] select (_lgdmg >= 1)];
-    if (X39_XMR_SETTING_HEAD_HeadShotDeathLimit != -1) {
+    if (X39_XMR_SETTING_HEAD_HeadShotDeathLimit != -1) then {
         if (_headdmg >= X39_XMR_SETTING_HEAD_HeadShotDeathLimit) then {
             if X39_XMR_FLAG_HEAD_HeadShotFakeKills then {
-                [_unit, -1, true] X39_XMR_fnc_BlackOut;
+                [_unit, -1, true] call X39_XMR_fnc_BlackOut;
             } else {
                 _damage = 1;
             };

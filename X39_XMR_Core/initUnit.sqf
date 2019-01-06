@@ -22,7 +22,7 @@ params [
     ["_unit", objNull, [objNull]]
 ];
 
-if (hasInterface && {isLocal _unit && {_unit == player}}) then
+if (hasInterface && {local _unit && {_unit == player}}) then
 {
     _unit spawn {
         waitUntil {!isNull (findDisplay 46)};
@@ -35,6 +35,8 @@ if (hasInterface && {isLocal _unit && {_unit == player}}) then
         _this setVariable ["X39_XMR_var_deafness", 0];
         _this setVariable ["X39_XMR_var_tourniquet", false];
         _this setVariable ["X39_XMR_var_lasttick", 0];
+        _this setVariable [VALSTR_BOS_STATE, 0];
+        _this setVariable [VALSTR_BOS_INFO, 0];
         
         _this setVariable ["X39_XMR_var_CB_46_OnKeyDown", (findDisplay 46) displayAddEventHandler["KeyDown", X39_XMR_fnc_CB_46_OnKeyDown]];
         _this setVariable ["X39_XMR_var_CB_Object_HandleDamage", _this addEventHandler["HandleDamage", X39_XMR_fnc_CB_Object_HandleDamage]];
